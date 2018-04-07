@@ -2,9 +2,9 @@ import pygame,sys,random,time
 
 check_erros=pygame.init()
 
-playSurface=pygame.display.set_mode((720,460))
-pygame.display.set_caption('Snake game!')
-fpsController = pygame.time.Clock()
+playSurface=pygame.display.set_mode((720,460)) #Tamaño de pantalla
+pygame.display.set_caption('Snake game!') #Nombre de la ventana
+fpsController = pygame.time.Clock() #Controlador de fps (velocidad en el juego)
 
 #Colores
 red = pygame.Color(255, 0, 0) # game over
